@@ -27,7 +27,7 @@ if __name__ == "__main__":
     birthday = []
     birthday.append([2000, 1, 1 , "测试"])      #加入农历生日2020年1月1日
     birthday.append([2000, 4, 2 , "测试"])      #加入农历生日2020年4月2日
-    birthday.append([1950, 3, 23, "测试"])      #加入农历生日1950年4月23日
+    birthday.append([1950, 3, 23, "测试"])      #加入农历生日1950年3月23日
 
     date = dict()                              #读入 json
     with open("date.json", 'r') as file:
