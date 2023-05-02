@@ -59,4 +59,5 @@ if __name__ == "__main__":
             tmp = [key for key, value in date.items() if judge(value, year, month, day)]
             # 写入列表
             icsfile.write_date_lis(tmp, convert(month, day)+ " " + info)
+            print(info, "已经写入" ,tmp[0], "到", tmp[-1], "的数据")
     
